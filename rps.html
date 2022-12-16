@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rock, Paper, Scissors!</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+    
+  </head>
+  <body>
+
+    <div class="game-screen">
+      <div>
+        <div id="screen">
+          <img id="image" src="/assets/Question_Mark.webp">
+        </div>
+      </div>
+    </div> 
+
+    <div class="screen-status">
+      <p id="result">Pick one</p>
+    </div>
+
+    <div class="select">
+      <button onclick = "calculateWinner('r')" class = "select-button">
+        <img class="rock" src="/assets/rock.png"></button>
+      <button onclick = "calculateWinner('p')" class="select-button">
+        <img class="paper" src="/assets/paper.png"></button>
+      <button onclick = "calculateWinner('s')" class="select-button">
+        <img class="scissor" src="/assets/scissors.png"></button>
+    </div>
+
+
+  </body>
+</html>
