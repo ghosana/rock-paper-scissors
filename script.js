@@ -13,11 +13,11 @@ function generateComputerOption() {
     image.style.width = "220px";
 
     if(computer == "r"){ 
-        document.getElementById("image").src = "assets/rock.png";
+        document.getElementById("image").src = "./assets/rock.png";
     }else if(computer == "p"){   
-        document.getElementById("image").src = "assets/paper.png";
+        document.getElementById("image").src = "./assets/paper.png";
     }else{    
-        document.getElementById("image").src = "assets/scissors.png";
+        document.getElementById("image").src = "./assets/scissors.png";
     }
     
     return computer;
